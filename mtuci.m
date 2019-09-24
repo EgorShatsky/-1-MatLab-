@@ -1,0 +1,12 @@
+a=-1.3;
+b=0.91;
+c=0.75;
+x=2.32;
+k=8;
+y=sin((a-x)/c)*power(10,4)*power((a-k*power(x,2)/2*b),1/3)+cos(k*power(x,2))/tan(3)-b*c/a*x;
+m=[a b c x k y];
+l=length(m);
+q=ones(1,6);
+sum=m+q;
+e=sum(3);
+sum(3)=0.81;
